@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+backend/venv/
+.pnp
+.pnp.*
+.yarn/
+
+# testing
+coverage/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Python cache / virtual envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# misc
+.DS_Store
+*.pem
+*.log
+remove_comments.py
+test.jpg

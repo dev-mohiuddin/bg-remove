@@ -1,0 +1,7 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+python-multipart==0.0.20
+pillow==11.2.1
+rembg==2.0.65
+onnxruntime-gpu==1.21.1
+pydantic-settings==2.9.1
