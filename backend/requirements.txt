@@ -2,6 +2,11 @@ fastapi==0.115.12
 uvicorn[standard]==0.34.3
 python-multipart==0.0.20
 pillow==11.2.1
-rembg==2.0.65
+numpy==1.26.4
 onnxruntime-gpu==1.21.1
 pydantic-settings==2.9.1
+scipy>=1.13.0
+# rembg kept as fallback only (BiRefNet is primary)
+rembg==2.0.65
+# Optional: opencv for fast guided filter (falls back to numpy if absent)
+opencv-python-headless>=4.10.0
